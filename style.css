@@ -1,0 +1,48 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2);
+  max-width: 300px;
+  margin: auto;
+  margin-top: 250px;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 {
+  color: black;
+  font-size: 36px;
+  font-weight: 400;
+  margin: 10px, 0;
+}
+p {
+  color: grey;
+  font-size: 18px;
+}
+.location {
+  font-size: 15px;
+}
+img {
+  max-width: 300px;
+}
+button {
+  border: none;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: black;
+  text-align: center;
+  cursor: pointer;
+  font-size: 18px;
+  width: 100%;
+}
+.icons {
+  margin-top: 20px;
+}
+.fa {
+  padding: 5px;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+}
+button:hover,
+.fa:hover {
+  opacity: 0.7;
+}
